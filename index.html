@@ -33,6 +33,9 @@
                     <li class="nav-item">
                         <a href="#instructors" class="nav-link">Instructors</a>
                     </li>
+                    <li class="nav-item" data-bs-toggle="modal" data-bs-target="#sites">
+                        <a href="#" class="nav-link">Sites Build by our students</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -347,12 +350,12 @@
         </div>
     </footer>
 
-    <!-- Modal -->
+    <!-- Modal-Enroll -->
     <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="enrollLabel">Modal title</h5>
+                    <h5 class="modal-title" id="enrollLabel">Enrollment</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -381,6 +384,79 @@
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal-Sites -->
+    <div class="modal fade" id="sites" tabindex="-1" aria-labelledby="sitesLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg-secondary text-light">
+                <div class="modal-header bg-dark text-light">
+                    <h5 class="modal-title" id="sitesLabel">Student Sites</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead">Sites Built By Our Students</p>
+                    <!-- Boxes -->
+                    <section class="p-2">
+                        <div class="container">
+                            <div class="row text-center g-2">
+                                <div class="col-sm">
+                                    <div class="card bg-light text-dark">
+                                        <div class="card-body text-center">
+                                            <div class="h1">
+                                                <img class="img-fluid w-50" src="./images/undraw_welcome_cats_thqn.svg" alt="">
+                                            </div>
+                                            <h3 class="card-title mb-2">
+                                                Friskay
+                                            </h3>
+                                            <p class="card-text width-40">
+                                                Delicious Cat Food
+                                            </p>
+                                            <a href="./sites/friskay/friskay.html" class="btn btn-primary">Visit</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--
+                                <div class="col-sm">
+                                    <div class="card bg-light text-dark">
+                                        <div class="card-body text-center">
+                                            <div class="h1">
+                                                <i class="bi bi-person-square"></i>
+                                            </div>
+                                            <h3 class="card-title mb-2">
+                                                Unity
+                                            </h3>
+                                            <p class="card-text width-40">
+                                                Lorem ipsum dolor sit amet.
+                                            </p>
+                                            <a href="#" class="btn btn-dark">Visit</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="card bg-light text-dark">
+                                        <div class="card-body text-center">
+                                            <div class="h1">
+                                                <i class="bi bi-people"></i>
+                                            </div>
+                                            <h3 class="card-title mb-2">
+                                                Godot
+                                            </h3>
+                                            <p class="card-text width-40">
+                                                Lorem ipsum dolor sit amet.
+                                            </p>
+                                            <a href="#" class="btn btn-primary">Visit</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                -->
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
         </div>
